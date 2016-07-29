@@ -2,7 +2,6 @@ local helpers = require "spec.helpers"
 local cjson = require "cjson"
 
 local cache = require "kong.tools.database_cache"
-local base64 = require "base64"
 local crypto = require "crypto"
 
 describe("Plugin: hmac-auth (hooks)", function()

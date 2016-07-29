@@ -1,6 +1,5 @@
 local cjson = require "cjson"
 local crypto = require "crypto"
-local base64 = require "base64"
 local helpers = require "spec.helpers"
 
 local hmac_sha1_binary = function(secret, data)
